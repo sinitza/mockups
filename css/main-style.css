@@ -1,0 +1,75 @@
+@import "header.css";
+@import "slider.css";
+@import "about.css";
+@import "services.css";
+@import "projects.css";
+@import "talk.css";
+@import "contact.css";
+@import "footer.css";
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+#about .content h2,
+#projects h2 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 26px;
+    padding-bottom: 3px;
+}
+
+#about .content p,
+#projects h2 + p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #b1b0b0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1170px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

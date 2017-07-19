@@ -1,0 +1,83 @@
+#about .about-title {
+    overflow: hidden;
+    padding: 25px 0;
+    color: white;
+    background-color: #f36b47;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 785px) {
+    #about .about-title {
+        font-size: 20px;
+        padding: 39px 0;
+    }
+}
+
+#about .about-title a {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 785px) {
+    #about .about-title a {
+        font-size: 22px;
+    }
+}
+
+#about .content {
+    border-bottom: 8px solid #f36b47;
+    padding: 43px 0 31px;
+}
+
+@media only screen and (min-width: 785px) {
+    #about .content {
+        border-bottom: none;
+        padding-top: 47px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #about .content {
+        padding-top: 53px;
+    }
+}
+
+#about .content h2 {
+    border-bottom: 2px solid #f36b47;
+    margin-bottom: 17px;
+}
+
+@media only screen and (min-width: 785px) {
+    #about .content h2 {
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #about .content h2 {
+        font-size: 25px;
+        margin-bottom: 33px;
+        padding-bottom: 2px;
+    }
+}
+
+#about .content p {
+    padding: 0 27px;
+}
+
+@media only screen and (min-width: 785px) {
+    #about .content p {
+        max-width: 600px;
+        word-spacing: 2px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #about .content p {
+        max-width: 93%;
+    }
+}
